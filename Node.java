@@ -13,10 +13,10 @@ public class Node{
 
     Node(int x, int y){
         if (Panel.nodes.isEmpty()){
-         this.image = new ImageIcon("greenBlock.png").getImage();
+         this.image = new ImageIcon("images/greenBlock.png").getImage();
         }
         else{
-        this.image = new ImageIcon("block.png").getImage();
+        this.image = new ImageIcon("images/block.png").getImage();
         }
         
         

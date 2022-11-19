@@ -15,12 +15,12 @@ import javax.swing.Timer;
 
 
 class Panel extends JPanel implements ActionListener{
-    public static Image block = new ImageIcon("block.png").getImage();
-    public static Image greenBlock = new ImageIcon("greenBlock.png").getImage();
-    public static Image orangeBlock = new ImageIcon("orangeBlock.png").getImage();
-    public static Image blueBlock = new ImageIcon("blueBlock.png").getImage();
-    public static Image redBlock = new ImageIcon("redBlock.png").getImage();
-    public static Image blueBlock2 = new ImageIcon("blueBlock2.png").getImage();
+    public static Image block = new ImageIcon("images/block.png").getImage();
+    public static Image greenBlock = new ImageIcon("images/greenBlock.png").getImage();
+    public static Image orangeBlock = new ImageIcon("images/orangeBlock.png").getImage();
+    public static Image blueBlock = new ImageIcon("images/blueBlock.png").getImage();
+    public static Image redBlock = new ImageIcon("images/redBlock.png").getImage();
+    public static Image blueBlock2 = new ImageIcon("images/blueBlock2.png").getImage();
     public static ArrayList<Node> nodes = new ArrayList<Node>();
     public static Timer timer;
     Random random = new Random();
